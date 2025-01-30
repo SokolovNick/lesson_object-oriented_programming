@@ -17,3 +17,13 @@ class Account:
         else:
             print("Invalid withdrawal amount or insufficient balance.")
 
+    def check_balance(self):
+        print(f"Your balance is {self.balance}")
+
+
+account_1 = Account(1000000001, 1000)
+
+account_1.check_balance()
+account_1.withdraw(700)
+account_1.withdraw(500)
+account_1.deposit(10000)
