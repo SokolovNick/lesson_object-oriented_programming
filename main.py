@@ -23,4 +23,7 @@ class Warrior():
         print(f"Damage: {self.damage}")
         print(f"Stamina: {self.stamina}")
 
-    
+
+warrior1 = Warrior("Warrior 1", 100, 10, 100)
+warrior2 = Warrior("Warrior 2", 100, 10, 100)
+
