@@ -46,7 +46,7 @@ class TaskManager:
 
 
 # Тестовый интерфейс через консоль
-def main():
+def start_task_manager():
     manager = TaskManager()
 
     while True:
@@ -86,6 +86,4 @@ def main():
             print("Ошибка: Неверный выбор, попробуйте снова.")
 
 
-if __name__ == "__main__":
-    main()
-
+start_task_manager()
